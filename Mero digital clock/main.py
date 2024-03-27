@@ -10,7 +10,7 @@ nepali_days_of_week = ["आइतवार", "सोमवार", "मंगल
 # The number of days in each Nepali month
 days_in_nepali_month = [31, 31, 32, 31, 32, 30, 30, 30, 29, 30, 30, 31]
   
-def get_nepali_digits(number):
+def get_nepali_digits(number):   
     """Converting a number to Nepali digits."""
     return ''.join(nepali_digits[int(digit)] for digit in str(number))
 
