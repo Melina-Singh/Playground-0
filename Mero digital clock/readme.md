@@ -4,3 +4,4 @@ The script adjusts the Nepali month and day by adding 8 and 16 respectively to t
 
 Finally, the script creates a Tkinter window with a label to display the clock. It updates the clock label with the current time and starts a loop to continuously update the clock every second using time.sleep(1) and update_clock() function.
  
+incomplete
